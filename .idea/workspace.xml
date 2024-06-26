@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e296892d-6caf-464e-9c22-a90190b45ce2" name="Changes" comment="Completed letuPars">
+    <list default="true" id="e296892d-6caf-464e-9c22-a90190b45ce2" name="Changes" comment="Completed rndwPars">
+      <change afterPath="$PROJECT_DIR$/duhirf.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letu.py" beforeDir="false" afterPath="$PROJECT_DIR$/letu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/randewoo.py" beforeDir="false" afterPath="$PROJECT_DIR$/randewoo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goldapple.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +32,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.classes.executor": "Debug",
+    "Python.duhirf.executor": "Debug",
+    "Python.goldapple.executor": "Debug",
     "Python.letu.executor": "Debug",
     "Python.main.executor": "Debug",
     "Python.randewoo.executor": "Debug",
+    "Python.rivegauche.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -91,24 +93,33 @@
       <option name="project" value="LOCAL" />
       <updated>1719377706037</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Completed rndwPars">
+      <option name="closed" value="true" />
+      <created>1719397264586</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719397264586</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Completed letuPars" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed letuPars" />
+    <MESSAGE value="Completed rndwPars" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed rndwPars" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>4</line>
+          <line>6</line>
           <option name="timeStamp" value="104" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/randewoo.py</url>
-          <line>114</line>
+          <line>113</line>
           <option name="timeStamp" value="139" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -117,19 +128,9 @@
           <option name="timeStamp" value="151" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/letu.py</url>
-          <line>121</line>
-          <option name="timeStamp" value="153" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/letu.py</url>
-          <line>124</line>
-          <option name="timeStamp" value="154" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/letu.py</url>
-          <line>122</line>
-          <option name="timeStamp" value="155" />
+          <url>file://$PROJECT_DIR$/duhirf.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="227" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
