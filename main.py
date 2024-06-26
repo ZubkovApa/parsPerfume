@@ -1,4 +1,6 @@
 from letu import letuParsPage
+from randewoo import rndwPars
 
-d = list(range(1, 100))
-print(d)
+
+
+

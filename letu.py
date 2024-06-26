@@ -5,7 +5,6 @@ from multiprocessing import Pool
 from bs4 import BeautifulSoup
 from selenium import webdriver
 
-import classes
 
 
 # Обхождение проверки
@@ -85,9 +84,9 @@ def letuParsPage(url):
             obj["size"] = int(page.find("div", class_="product-detail-sku-block__info").text[5:][:-6].split(" ")[-2])
 
         # Закрытие браузера, возврат эклемпляра класса парфюма
-
         browser.quit()
         return obj
+
     except Exception as e:
         print(url)
         print(e)
@@ -120,11 +119,11 @@ def letuPars(count):
     if __name__ == '__main__':
         p = Pool(processes=4)
         pages.extend(p.map(letuParsCatalog, numbers))
-        pages = [np.array(pages).flatten()][0]
+        pages = np.array(pages).flatten()
         perfumes.extend(p.map(letuParsPage, pages))
         perfumes = [np.array(perfumes).flatten()][0]
     return perfumes
 
 
-abc = letuPars(1)
+abc = letuPars(2)
 print("ready")
